@@ -25,7 +25,16 @@ class MenuPage extends StatefulWidget {
 }
 
 class _MenuPageState extends State<MenuPage> {
-  final List<String> categories = ['Entrées', 'Plats', 'Desserts', 'Desserts', 'Desserts', 'Desserts'];
+  final List<String> categories = [
+    'Entrées',
+    'Plats',
+    'Desserts',
+    'Boissons',
+    'Accompagnements',
+    'Menu enfants',
+    'Vins',
+    'Cocktails'
+  ];
   final Map<String, List<Dish>> dishesByCategory = {
     'Entrées': [
       Dish(name: 'Salade', imageUrl: 'assets/images/salade.jpg', price: 5.0, description: 'Salade verte.'),
@@ -47,6 +56,16 @@ class _MenuPageState extends State<MenuPage> {
       Dish(name: 'Tarte', imageUrl: 'assets/images/tarte.jpg', price: 7.0, description: 'Tarte aux pommes.'),
       Dish(name: 'Tarte', imageUrl: 'assets/images/tarte.jpg', price: 7.0, description: 'Tarte aux pommes.'),
       Dish(name: 'Tarte', imageUrl: 'assets/images/tarte.jpg', price: 7.0, description: 'Tarte aux pommes.'),
+    ],
+    'Boissons': [
+    ],
+    'Menu enfants': [
+    ],
+    'Accompagnements': [
+    ],
+    'Vins': [
+    ],
+    'Cocktails': [
     ],
   };
 
