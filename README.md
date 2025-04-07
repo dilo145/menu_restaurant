@@ -1,16 +1,26 @@
-# menu_restaurant_app
+# Menu du Restaurant - App Flutter
 
-A new Flutter project.
+## Description
+Application mobile pour afficher le menu d'un restaurant avec catégories et plats.
 
-## Getting Started
+## Fonctionnalités
+- Navigation par catégories (Entrées, Plats, Desserts)
+- Affichage des plats en cartes
+- Défilement horizontal pour les catégories
+- Défilement vertical pour les plats
 
-This project is a starting point for a Flutter application.
+## Screenshots
+- ![Screenshot 1](doc/images/scroll_horizontal.png)
+- ![Screenshot 2](doc/images/scroll_vertical.png)
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
+```
+flutter pub get
+flutter run
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Structure
+Fichier principal: `main.dart`
+- Affichage des catégories
+- Liste des plats
+- Composant pour les cartes de plats
